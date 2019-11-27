@@ -17,6 +17,7 @@ public class DemoServlet extends HttpServlet {
 	private static final ObjectMapper mapper = new ObjectMapper();
 	
 	static {
+		// This is a static initializer
 		mapper.enable(SerializationFeature.INDENT_OUTPUT);
 	}
 	
